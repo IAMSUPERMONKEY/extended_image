@@ -404,7 +404,7 @@ class ExtendedImage extends StatefulWidget {
             ? constraints?.tighten(width: width, height: height) ??
                 BoxConstraints.tightFor(width: width, height: height)
             : constraints,
-        handleLoadingProgress = false,
+        handleLoadingProgress = true,
         super(key: key);
 
   /// Creates a widget that displays an [ImageStream] obtained from a [Uint8List].
